@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="75dp"
+        android:gravity="center"
+        android:text="情緒知多D"
+        android:textSize="30sp"></TextView>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="384dp"
+        android:contentDescription="emotion backgroud"
+        android:src="@drawable/emotion">
+
+    </ImageView>
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="125dp">
+
+
+        <TableRow
+
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical">
+
+            <Button
+                android:id="@+id/diary"
+                android:layout_width="103dp"
+                android:layout_height="103dp"
+                android:background="@drawable/shape_button"
+                android:text="情緒日記" />
+
+            <Button
+                android:id="@+id/quiz"
+                android:layout_width="103dp"
+                android:layout_height="103dp"
+                android:background="@drawable/shape_button"
+                android:text="小測驗" />
+
+            <Button
+                android:id="@+id/chat"
+                android:layout_width="103dp"
+                android:layout_height="103dp"
+                android:background="@drawable/shape_button"
+                android:text="與AI傾訴"
+
+                />
+
+            <Button
+                android:id="@+id/material"
+                android:layout_width="103dp"
+                android:layout_height="103dp"
+                android:background="@drawable/shape_button"
+                android:text="資源分享"
+
+                />
+        </TableRow>
+
+    </TableLayout>
+
+</LinearLayout>

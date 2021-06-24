@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#009688</color>
+    <color name="colorPrimaryDark">#17C3B2</color>
+    <color name="colorAccent">#03DAC5</color>
+    <color name="gray">#888</color>
+    <color name="blue">#0000FF</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="grey">#757171</color>
+    <color name="backgroundColor">#3E454F</color>
+    <color name="lightGreen">#8BC34A</color>
+    <color name="green">#008000</color>
+    <color name="red">#FF0000</color>
+    <color name="transparent">#88000000</color>
+
+    <color name="bg_default">#B5E8DE</color>
+    <color name="bg_default2">#B5E8DE</color>
+    <color name="item">#17C3B2</color>
+    <color name="putih">#FFFFFF</color>
+    <color name="putih2">#FFFFFF</color>
+    <color name="putih_transparan">#99090909</color>
+    <color name="item_transparan">#000000</color>
+    <color name="item_transparan2">#17C3B2</color>
+    <color name="abuabu">#9d9d9d</color>
+
+    <color name="black_overlay">#66000000</color>
+
+
+    <color name="bg_bubble_self">#62caa6</color>
+    <color name="bg_bubble_watbot">#ecf0f1</color>
+</resources>

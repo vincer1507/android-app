@@ -1,0 +1,63 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/rootview"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_default" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/putih2" >
+
+        <ImageView
+            android:id="@+id/imageCover"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_gravity="top"
+            android:adjustViewBounds="true"
+            android:scaleType="centerCrop"
+            android:src="@mipmap/cover_defaul2t" />
+
+        <com.example.fyp.widget.CircleImageView
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/imagePP"
+            android:layout_alignBottom="@+id/imageCover"
+            android:layout_alignParentLeft="true"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_margin="8dp"
+            android:src="@mipmap/profile_default"
+            app:civ_border_width="0.5dp"
+            app:civ_border_color="#FFFFFF"/>
+
+        <ListView
+            android:id="@+id/listView1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/imageCover"
+            android:layout_marginTop="-4dp"
+            android:divider="@null"></ListView>
+
+        <ImageButton
+            android:id="@+id/back"
+            android:layout_width="121dp"
+            android:layout_height="55dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="false"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="286dp"
+            android:layout_marginTop="6dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginRight="6dp"
+            android:layout_marginBottom="8dp"
+            android:adjustViewBounds="true"
+            android:background="@drawable/icon_state"
+            android:src="@mipmap/ic_arrow_back_white_24dp" />
+
+
+    </RelativeLayout>
+
+</FrameLayout>
